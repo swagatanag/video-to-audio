@@ -1,5 +1,6 @@
 import streamlit as st
-from moviepy.editor import VideoFileClip
+from moviepy.video.io.VideoFileClip import VideoFileClip
+
 import os
 
 st.set_page_config(page_title="Video to Audio Extractor", page_icon="🎵")
