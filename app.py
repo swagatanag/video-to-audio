@@ -1,5 +1,5 @@
 import streamlit as st
-from moviepy.editor import VideoFileClip
+from moviepy.video.io.VideoFileClip import VideoFileClip
 import os
 
 # Page configuration
